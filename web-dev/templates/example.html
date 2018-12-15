@@ -1,0 +1,164 @@
+<!-- <p><a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a>
+</p>
+<div id="light" class="white_content">This is the lightbox content. <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+</div>
+<div id="fade" class="black_overlay"></div>
+
+ -->
+
+<!-- <html>
+<head>
+
+<style>
+
+#container {
+
+ position:absolute;
+
+ background-color:#abc;
+
+ left:50px;
+
+ width:90px;
+
+ height:90px;
+
+ margin:5px;
+
+}
+
+
+
+#menu {
+
+ position:absolute;
+
+ background-color:#000000;
+
+ width:40px;
+
+ height:90px;
+
+}
+#ram{
+  position:absolute;
+
+  background-color:red;
+
+  width:20px;
+
+  height:90px;
+}
+
+</style>
+
+
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+<div id="container">
+
+ <div id="menu"></div>
+  <div id="ram"></div>
+</div>
+
+<script>
+
+
+
+var menu_flag = true;
+var ram_flag = true;
+
+
+
+$("#menu").click(function(){
+
+ if (menu_flag) {
+
+   $("#container").animate({"left": "+=30px"}, "slow");
+
+ menu_flag = false;
+
+ } else {
+
+ $("#container").animate({"left": "-=30px"}, "slow");
+
+       menu_flag = true;
+
+ }
+
+});
+
+$("#ram").click(function(){
+
+ if (ram_flag) {
+
+   $("#container").animate({"left": "-=30px"}, "slow");
+
+ ram_flag = false;
+
+ } else {
+
+ $("#container").animate({"left": "+=30px"}, "slow");
+
+       ram_flag = true;
+
+ }
+
+});
+
+
+</script>
+
+</body>
+
+</html> -->
+
+
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<style>
+#yea {
+margin-left: 100px;
+height: 100px;
+width: 100px;
+background: blue;
+border: 1px black solid;
+}
+</style>
+</head>
+<body>
+<div id='yea'></div>
+<input type="button" value="Capacity Chart" onclick="animateMe();" >
+<script>
+
+function animateLeft(obj, from, to){
+if(from >= to){
+   obj.style.visibility = 'hidden';
+   return;
+}
+else {
+   var box = obj;
+   box.style.marginLeft = from + "px";
+   setTimeout(function(){
+       animateLeft(obj, from + 1, to);
+   }, 25)
+}
+}
+
+function animateMe() {
+animateLeft(document.getElementById('yea'), 100, 700);
+}
+</script> -->
+
+
+<!DOCTYPE html> <html> <head> <style> span { cursor:pointer; } span.hilite { background:yellow; } div { display:inline; color:red; } </style> <script src="http://code.jquery.com/jquery-latest.js"></script> </head> <body> <h3>Find the modifiers - <div></div></h3> <p> If you <span>really</span> want to go outside <span>in the cold</span> then make sure to wear your <span>warm</span> jacket given to you by your <span>favorite</span> teacher. </p> <script> $("span").click(function () { $(this).fadeOut(1000, function () { $("div").text("'" + $(this).text() + "' has faded!"); $(this).remove(); }); }); $("span").hover(function () { $(this).addClass("hilite"); }, function () { $(this).removeClass("hilite"); }); </script> </body> </html>

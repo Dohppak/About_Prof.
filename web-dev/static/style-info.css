@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700,800|Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Titillium+Web:200i,300,300i,400,400i,600,600i,700,700i,900');
+.content-box-info{
+  background-color:#424242;
+  width:40%;
+  float:left;
+  height:100vh;
+  z-index: 100;
+}
+#info-container{
+  position:absolute;
+}
+.in-navbar{
+  margin-top: 10%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size:2em;
+  padding-left:10%;
+  padding-right:10%;
+  line-height:1.1em
+}
+.in-navbar a{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size:.8em;
+}
+.circle{
+  font-size: 1.2em;
+  /* width: 1em; */
+  border-radius: 3em;
+  padding: .15em  .15em;
+  /* line-height: 1.25em; */
+  /* border: 1px solid #333; */
+  display: inline-block;
+  text-align: center;
+  background:#f6c431;
+  margin-left: .2em;
+  margin-right: .2em;
+}
+
+/* @keyframes keycolor{
+  0%{background-color:black;}
+  10%{background-color:white;}
+  20%{background-color:#f6c431;}
+  30%{background-color:#afcb05;}
+  40%{background-color:#ea4f6e;}
+  50%{background-color:#00963f;}
+  60%{background-color:#52a6b1;}
+  70%{background-color:#cd7fb3;}
+  80%{background-color:#008ad2;}
+  90%{background-color:black;}
+  100%{background-color:#f6c431;}
+} */
+.graph{
+  width:60%;
+  float:right;
+  height:100vh;
+  /* background-color:#e6e6e4; */
+}
+.prof-content{
+  margin-top:10%;
+  margin-left:10%;
+  margin-right: 5%;
+}
+.prof-content p{
+  color:white;
+  font-weight: 500;
+  font-style:normal;
+}
+.categoize{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size:1em;
+  font-style:italic;
+  color:#f6c431;
+}
+.prof-content2, .prof-content3{
+
+}
+.author, .departments, .lab-site{
+  height:10vh;
+}
+.prof-content2, .source-title, .document-graph{
+  height:15vh;
+}
+.image{
+  margin-top: 10%;
+}
+.prof-image{
+  clip-path: circle(70px at center);
+}
+.author, .departments, .lab-site{
+  display:block;
+}
+.source-title, .document-graph{
+  display:block;
+}
+.circle-dot{
+  font-size: .8em;
+  /* width: 1em; */
+  border-radius: 3em;
+  padding: .15em  .15em;
+  /* line-height: 1.25em; */
+  /* border: 1px solid #333; */
+  display: inline-block;
+  text-align: center;
+  background:#f6c431;
+  margin-left: .2em;
+  margin-right: .2em;
+}
+.circle-img{
+  font-size: 3em;
+  /* width: 1em; */
+  border-radius: 3em;
+  padding: .15em  .15em;
+  /* line-height: 1.25em; */
+  /* border: 1px solid #333; */
+  display: inline-block;
+  text-align: center;
+  background:#f6c431;
+  margin-left: .2em;
+  margin-right: .2em;
+  position:absolute;
+  right:25%;
+  bottom:45%;
+}
+.ri, .related-prof{
+  width:50%
+}
+
+.detail-rel:hover{
+  color:#f6c431;
+}
+.detail-site:hover{
+  color:#f6c431;
+}
+.research-field{
+  padding-left:5%;
+  padding-top:5%;
+}
+
+/* .in-footer{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size:.5em;
+  font-style:italic;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  background-color:white;
+
+  color:black;
+  bottom:0;
+  left:10px;
+  position:absolute;
+} */
+
+
+
+
+/* 학부별 색상 조합 */
+
+/* .{
+  Mechanical Aerospace and Nuclear Engineering:black
+  School of Natural Science:white
+  School of Design and Human Engineering:#f6c431
+  School of Life Sciences:#afcb05
+  Electrical and Computer Engineering:#ea4f6e
+  Urban and Environmental Engineering:#00963f
+  Energy and Chemical Engineering:#52a6b1
+  Business Adminstration:#cd7fb3
+  Management Engineering:#008ad2
+} */
