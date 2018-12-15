@@ -24,9 +24,9 @@ class DocSim(object):
         similarmatrix = self._cosine_sim(totalvector, totalvector.T)
         # 쿼리에서 index를 뽑아내서
         if query in model.docvecs.index2entity:
-            index = #으아아아 몰르겠어
+            index = None #으아아아 몰르겠어
         elif query in model.wv.index2entity:
-            index = #으아아 모르겠어
+            index = None #으아아 모르겠어
         else:
             print("UNIST에서 탈출하십시요!")
 
