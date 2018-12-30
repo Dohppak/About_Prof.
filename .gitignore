@@ -1,0 +1,41 @@
+
+notebook/DB/frontdata/finaldb.bson
+notebook/DB/frontdata/finaldb.metadata.json
+notebook/DB/rawdata/Docdb.bson
+notebook/DB/rawdata/Docdb.metadata.json
+notebook/DB/rawdata/excel.bson
+notebook/DB/rawdata/excel.json
+notebook/DB/rawdata/keyword.bson
+notebook/DB/rawdata/keyword.metadata.json
+notebook/DB/rawdata/scholarworksfront.bson
+notebook/DB/rawdata/scholarworksfront.metadata.json
+notebook/finalmodel
+.idea/workspace.xml
+notebook/Gensim function.ipynb
+src/main.py
+src/UpdataModel/__init__.py
+src/UpdataModel/modelbuild.py
+src/UpdataModel/Newdoc.py
+src/UpdataModel/parametertunning.py
+src/UpdataModel/preprocessing.py
+.idea/workspace.xml
+notebook/Gensim function.ipynb
+src/main.py
+src/UpdataModel/__init__.py
+src/UpdataModel/modelbuild.py
+src/UpdataModel/Newdoc.py
+src/UpdataModel/parametertunning.py
+src/UpdataModel/preprocessing.py
+src/UpdataModel/__init__.py
+src/main.py
+notebook/Gensim function.ipynb
+.idea/workspace.xml
+notebook/Gensim function.ipynb
+src/main.py
+src/UpdataModel/__init__.py
+src/UpdataModel/modelbuild.py
+src/UpdataModel/Newdoc.py
+src/UpdataModel/parametertunning.py
+src/UpdataModel/preprocessing.py
+notebook/Gensim function.ipynb
+.idea/workspace.xml
