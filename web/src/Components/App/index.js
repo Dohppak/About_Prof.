@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <Router>
         <StoreProvider>
-          <div className="App">
+          <div className={styles.app}>
             <Route 
                 exact path='/'
                 render={Intro}
