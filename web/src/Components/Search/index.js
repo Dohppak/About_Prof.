@@ -8,16 +8,27 @@ class Search extends Component{
             text: ''
         }
     }
-    onChange = (e) => {
-        console.log(e.target.value)
+    onKeyPress = (e) => {
+        if (e.key === 'Enter') {
+            console.log(this.state.text);
+            this.setState({
+                text: ''
+            })
+            e.target.value = ''
+        }
     }
-
+    onChange = (e) => {
+        this.setState({
+            text: e.target.value
+        })
+    }
     render(){
         return (
             <div>
                 <input
                     text={this.state.text}
                     onChange={this.onChange}
+                    onKeyPress={this.onKeyPress}
                 />
             </div>
         )
