@@ -11,9 +11,7 @@ class Search extends Component{
     onChange = (e) => {
         console.log(e.target.value)
     }
-    onSubmit = (e) => {
-        console.loe(this.state.text)
-    }
+
     render(){
         return (
             <div>
