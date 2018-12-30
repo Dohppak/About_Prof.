@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Search from '../Search';
 import styles from './index.scss';
 
-const Intro = () => {
-    return (
-        <div calssName={styles.body}>
+class Intro extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            keyword: false
+        }
+    }
+    render(){
+        return(
+            <div calssName={styles.body}>
             <div className={styles.header}>
                 <div className={styles.logo}>
                     <h1>About Prof.</h1>
@@ -31,8 +38,9 @@ const Intro = () => {
                 </div>
             </div>
         </div>
-        
-    )
+        )
+    }
+    
 }
 
 export default Intro
