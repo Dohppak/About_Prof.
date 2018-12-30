@@ -14,7 +14,7 @@ class App extends Component {
           <div className="App">
             <Route 
                 exact path='/'
-                render={Intro}
+                component={Intro}
               />
             <Route
               path='/result'
