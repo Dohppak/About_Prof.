@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import styles from './index.scss';
 
 class Search extends Component{
     constructor(props) {
@@ -24,8 +24,9 @@ class Search extends Component{
     }
     render(){
         return (
-            <div>
+            <div className={styles.bar}>
                 <input
+                    placeholder="What is your interest?"
                     text={this.state.text}
                     onChange={this.onChange}
                     onKeyPress={this.onKeyPress}

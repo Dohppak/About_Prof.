@@ -39,7 +39,7 @@ class Intro extends Component {
                     </div>
 
                     <div calssName={styles.intro}>
-                        <h3>You can search Prof's Research field in UNIST</h3>
+                        <h4>You can search <br/> Prof's Research field in UNIST</h4>
                     </div>
                 </div>
                 <div className={styles.introbox}>

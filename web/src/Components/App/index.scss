@@ -1,5 +1,8 @@
 :local(.app){
-    background-color: lightgrey;
     display: flex;
+    flex-direction: column;
     height: 100vh;
-}
+    font-family : 'Poppins';
+    font-weight : 500;
+
+};

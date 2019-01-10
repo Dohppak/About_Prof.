@@ -1,13 +1,37 @@
-
-:local(.body){
-}
-
 :local(.header){
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-}
 
+};
+
+:local(.logo){
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size:3em;
+    line-height:1.1em;
+};
 
 :local(.introbox){
-}
+    display : flex;
+    flex-direction: row;
+    padding : 15% 0 10px 0;
+    justify-content: center;
+    
+};
+
+
+:local(.typeSelecter){
+    display : flex;
+    flex-direction: row;
+    padding : 0 40% 20% 40%;
+    justify-content: space-between;
+};
+
+:local(.typeSelecter h4){
+    font-size: 14px;
+    color : rgba(0,0,0,0.33);
+    transition: all 0.2s ease-in-out;
+};
+
+
