@@ -40,13 +40,13 @@ class Intro extends Component {
     }
     render(){
         return(
-            <div calssName={styles.body}>
+            <div className={styles.body}>
                 <div className={styles.header}>
                     <div className={styles.logo}>
                         <h1>About Prof.</h1>
                     </div>
 
-                    <div calssName={styles.intro}>
+                    <div className={styles.intro}>
                         <h4>You can search <br/> Prof's Research field in UNIST</h4>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ class Intro extends Component {
                         keyword={this.state.keyword}
                         changeMode={this.changeMode}
                     />
-                    <div calssName={styles.aboutus}>
+                    <div className={styles.aboutus}>
                         <h4>
                             aboutus
                         </h4>

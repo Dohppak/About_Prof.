@@ -1,5 +1,5 @@
 import React, { Component, createContext } from 'react';
-
+import { fetchQuery } from './Actions';
 const Context = createContext();
 const { Provider, Consumer: StoreConsumer } = Context; 
 
@@ -16,6 +16,10 @@ class StoreProvider extends Component {
             this.setState({
                 value
             });
+        },
+        search: (query, keyword) => {
+            const result = fetchQuery(query, keyword)
+            console.log(result)
         }
     }
     render() {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { StoreConsumer } from '../../store';
 import styles from './index.scss';
 
 class Search extends Component{
@@ -11,6 +12,7 @@ class Search extends Component{
     onKeyPress = (e) => {
         if (e.key === 'Enter') {
             console.log(this.state.text);
+            this.props.search(this.state.text, this.props.keyword)
             this.setState({
                 text: ''
             })
@@ -36,4 +38,19 @@ class Search extends Component{
     }   
 }
 
-export default Search;
+const SearchContainer = (props) => {
+    return (
+        <StoreConsumer>
+            {
+                ({state, actions}) => (
+                    <Search 
+                        search={actions.search}
+                        {...props}
+                    />
+                )
+            }
+        </StoreConsumer>
+    )
+}
+
+export default SearchContainer;
