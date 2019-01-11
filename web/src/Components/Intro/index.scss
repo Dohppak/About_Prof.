@@ -26,12 +26,15 @@
     flex-direction: row;
     padding : 0 40% 20% 40%;
     justify-content: space-between;
+
+    :local(.active){
+        color: red;
+        font-size: 14px;
+        transition: all 0.2s ease-in-out;
+    }
+    :local(.nonactive) {
+        color: blue;
+        font-size: 14px;
+        transition: all 0.2s ease-in-out;
+    }
 };
-
-:local(.typeSelecter h4){
-    font-size: 14px;
-    color : rgba(0,0,0,0.33);
-    transition: all 0.2s ease-in-out;
-};
-
-

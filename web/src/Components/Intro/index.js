@@ -5,8 +5,16 @@ import styles from './index.scss';
 const Selector = (props) => {
     return(
         <div className={styles.typeSelecter}>
-            <h4 id={1} onClick={props.changeMode}>professor</h4>
-            <h4 id={2} onClick={props.changeMode}>keyword</h4>
+            <div 
+                id={1}
+                className={!props.keyword?styles.active:styles.nonactive}
+                onClick={props.changeMode}>professor
+            </div>
+            <div 
+                id={2} 
+                className={props.keyword?styles.active:styles.nonactive}
+                onClick={props.changeMode}>keyword
+            </div>
         </div>
     )
 }
@@ -46,7 +54,10 @@ class Intro extends Component {
                     <Search keyword={this.state.keyword}/>
                 </div>
                 <div className={styles.footer}>
-                    <Selector changeMode={this.changeMode}/>
+                    <Selector 
+                        keyword={this.state.keyword}
+                        changeMode={this.changeMode}
+                    />
                     <div calssName={styles.aboutus}>
                         <h4>
                             aboutus
