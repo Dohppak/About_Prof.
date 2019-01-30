@@ -1,0 +1,17 @@
+:local(.Profinfo){
+    padding : 90px 5% 0 5%;
+    background-color:#424242;
+    width:40%;
+    float:left;
+    height:100vh;
+    z-index: 100;
+    position : absolute;
+    color : rgba(255,255,255,0.9);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+};
+
+:local(img){
+    clip-path: circle(70px at center);
+};

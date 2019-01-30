@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700,800|Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Titillium+Web:200i,300,300i,400,400i,600,600i,700,700i,900');
 
     html {
-    background-color:#e6e6e4;
+    /* background-color:#e6e6e4; */
     height:100%;
     }
     *{
@@ -17,7 +17,6 @@ const GlobalStyle = createGlobalStyle`
     body{
     margin: 0;
     padding: 0;
-    background-color:#e6e6e4;
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color:#FAFAFA;

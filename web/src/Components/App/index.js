@@ -5,11 +5,10 @@ import styled from 'styled-components';
 import GlobalStyles from '../GlobalStyle';
 import Intro from '../Intro';
 import styles from './index.scss';
-
 import Result from '../Result';
 
 const Container = styled.div`
-  padding : 90px 10% 0 10%;
+  /* padding : 90px 5% 0 5%; */
 `;
 
 class App extends Component {
